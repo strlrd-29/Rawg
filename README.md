@@ -4,8 +4,6 @@
 
 1- Clone this repo using :
 
-> git clone https://github.com/strlrd-29/Rawg.git.
-
 2- Run The following command to install all dev dependencies
 
 #### npm
