@@ -1,0 +1,20 @@
+{
+  "name": "games_app",
+  "version": "1.0.0",
+  "description": "This is a next js app for browsing games using the rawg api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "Games",
+    "Rawg",
+    "nextJs",
+    "Chakra-ui"
+  ],
+  "author": "Ghribi Ouassim Abdelmalek",
+  "license": "MIT"
+}
