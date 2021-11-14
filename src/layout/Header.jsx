@@ -6,16 +6,16 @@ import {
   InputGroup,
   InputLeftElement,
   InputRightElement,
-  Kbd,
-} from "@chakra-ui/react";
-import NexxtLink from "next/link";
-import { useRef } from "react";
-import { useHotkeys } from "react-hotkeys-hook";
-import { IoSearchOutline } from "react-icons/io5";
+  Kbd
+} from '@chakra-ui/react';
+import NexxtLink from 'next/link';
+import { useRef } from 'react';
+import { useHotkeys } from 'react-hotkeys-hook';
+import { IoSearchOutline } from 'react-icons/io5';
 
 function Header() {
   const inputRef = useRef();
-  useHotkeys("alt+enter, command+enter", () => {
+  useHotkeys('alt+enter, command+enter', () => {
     inputRef.current.focus();
   });
 
@@ -45,14 +45,14 @@ function Header() {
         role="group"
         display="block"
         rounded="full"
-        _hover={{ bg: "white" }}
+        _hover={{ bg: 'white' }}
         bg="cardbg"
         transition="all 0.3s ease-in-out"
         maxW="700px"
       >
         <InputLeftElement
           _groupHover={{
-            color: "#151515",
+            color: '#151515'
           }}
         >
           <IoSearchOutline />
@@ -65,13 +65,13 @@ function Header() {
           rounded="full"
           bg="transparent"
           _placeholder={{
-            color: "gray.400",
+            color: 'gray.400'
           }}
           _groupHover={{
-            color: "#151515",
+            color: '#151515',
             _placeholder: {
-              color: "#202020",
-            },
+              color: '#202020'
+            }
           }}
           width="100%"
         />
@@ -79,9 +79,9 @@ function Header() {
           mr={10}
           color="white"
           _groupHover={{
-            color: "#151515",
+            color: '#151515'
           }}
-          display={{ base: "none", md: "flex" }}
+          display={{ base: 'none', md: 'flex' }}
         >
           <Kbd bg="transparent">alt</Kbd> + <Kbd bg="transparent">enter</Kbd>
         </InputRightElement>

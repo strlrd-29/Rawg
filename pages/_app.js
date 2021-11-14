@@ -1,10 +1,10 @@
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider } from '@chakra-ui/react';
 
 //default layou
-import Layout from "../src/layout/Layout";
+import Layout from '../src/layout/Layout';
 
 //theme import
-import theme from "../src/theme/theme";
+import theme from '../src/theme/theme';
 
 function MyApp({ Component, pageProps }) {
   return (

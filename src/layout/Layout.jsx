@@ -1,14 +1,14 @@
-import { Container, VStack } from "@chakra-ui/react";
+import { Container, HStack, VStack } from '@chakra-ui/react';
 
 //components import
-import Header from "./Header";
+import Header from './Header';
 
 function Layout({ children }) {
   return (
     <Container
       display="flex"
       maxW="container.xl"
-      minH={{ base: "auto", md: "100vh" }}
+      minH={{ base: 'auto', md: '100vh' }}
       p={0}
       bg="bg"
     >
